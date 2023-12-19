@@ -2,7 +2,6 @@
 
 `inspectDialog` is a Mini Micro library that provides a subclass of `textUtil.Dialog` that inspects MiniScript values.
 
-
 Create a dialog instance and inspect a value:
 
 ```
@@ -22,3 +21,7 @@ inspect = function(value)
 	return @btn.payload
 end function
 ```
+
+How it will look in Mini Micro:
+
+![How it will look](doc/inspect.gif)
